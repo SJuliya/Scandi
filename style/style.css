@@ -67,6 +67,15 @@ img {
     border: none;
 }
 
+.btn:hover {
+    color: #EFE6E4;
+}
+
+.btn:active {
+    background-color: #533738;
+    color: #EFE6E4;
+}
+
 .title {
     font-size: 40px;
     line-height: 50px;
@@ -113,6 +122,14 @@ img {
     line-height: 20px;
 }
 
+.navigation__link:hover {
+    text-decoration: underline;
+}
+
+.navigation__link:active {
+    color: #8D7370;
+}
+
 .header__hero {
     margin-top: 90px;
     max-width: 500px;
@@ -130,6 +147,10 @@ img {
     line-height: 30px;
     margin-top: 25px;
     margin-bottom: 30px;
+}
+
+.hero__btn:active {
+    background-color: #8D7370;
 }
 
 /*About*/
@@ -205,6 +226,10 @@ img {
     padding-left: 10px;
 }
 
+.portfolio__btn:hover {
+    color: #8D7370;
+}
+
 /*Team*/
 
 .team__title {
@@ -262,6 +287,8 @@ img {
 .review__btn {
     border: none;
     background: none;
+    height: 100%;
+    align-self: center;
 }
 
 .review__description {
@@ -321,18 +348,18 @@ img {
     font-size: 18px;
     line-height: 30px;
     opacity: 0.6;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 }
 
 .request__form > input {
     display: block;
     width: 100%;
     background: none;
-    height: 35px;
+    height: 39px;
     border: none;
     border-bottom: 1px solid #FFFFFF;
-    padding: 0;
-    margin-bottom: 35px;
+    padding: 0 0 4px 0;
+    margin-bottom: 31px;
 }
 
 .request__form > input:nth-last-of-type(1) {
@@ -343,6 +370,11 @@ img {
     font-size: 18px;
     line-height: 30px;
     color: #F6EDE9;
+}
+
+.request__input:focus {
+    background: none;
+    border: none;
 }
 
 .request__button {
