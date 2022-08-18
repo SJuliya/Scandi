@@ -360,6 +360,7 @@ img {
     border-bottom: 1px solid #FFFFFF;
     padding: 0 0 4px 0;
     margin-bottom: 31px;
+    color: #FFFFFF;
 }
 
 .request__form > input:nth-last-of-type(1) {
@@ -373,12 +374,7 @@ img {
 }
 
 .request__input:focus {
-    background: none;
-    border: none;
-}
-
-.request__button {
-
+    outline: none;
 }
 
 /*Footer*/
