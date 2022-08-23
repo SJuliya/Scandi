@@ -291,6 +291,24 @@ img {
     align-self: center;
 }
 
+.review__btn_container {
+    display: flex;
+}
+
+.review__btn {
+    width: 72px;
+    height: 72px;
+    display: block;
+}
+
+.review__btn.left {
+    background-image: url('../images/arrowleft.png');
+}
+
+.review__btn.right {
+    background-image: url('../images/arrowright.png');
+}
+
 .review__description {
     display: flex;
     flex-direction: column;
